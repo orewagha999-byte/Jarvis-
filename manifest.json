@@ -1,0 +1,260 @@
+{
+  "format_version": 3,
+  "header": {
+    "description": "§l(§5Pls restart your game§f)\nConf in game by §6Team Nicverse§f, re-edited by §aBRSpike26§r.",
+    "name": "§l§fSodium GL §5Reimagined§f§r",
+    "uuid": "a4e2f891-6c3d-4b7a-9e1f-0b5c3d2e8f7a",
+    "pack_optimization_version": "0.1.0",
+    "min_engine_version": "1.21.130",
+    "version": "1.0.0"
+  },
+  "metadata": {
+    "authors": ["Team Nicverse and BRSpike26"]
+  },
+  "capabilities": ["pbr"],
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "5b9d3f1a-8e2c-4d7b-bc4f-9a1e0b2c3d4f",
+      "version": "1.0.1"
+    }
+  ],
+  "settings": [
+    {
+      "type": "label",
+      "text": "Reduced §l§aSodium §fGl base !!! ------------------------------------------ \nCONFIGURE EACH PARTICLE ACCORDING TO YOUR PREFERENCE :\n\n"
+    },
+    {
+      "type": "toggle",
+      "text": "§pPotion particles §8: Emitted by players with beacon or conduit ambient effects, produced by area-of-effect clouds from lingering potions, emitted by players with non-ambient effects, and floats off tipped arrows.",
+      "name": "nic:spell",
+      "default": true
+    },
+    {
+      "type": "slider",
+      "text": "§pPotion particles size §r",
+      "name": "nic:spell_size",
+      "min": 1,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "toggle",
+      "text": "§pTotem particles §8: Produced when a totem of undying is used.",
+      "name": "nic:totem",
+      "default": true
+    },
+    {
+      "type": "slider",
+      "text": "§pTotem particles size §r",
+      "name": "nic:totem_size",
+      "min": 1,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "toggle",
+      "text": "§pBlock particles §8: Shown when sliding on honey blocks; produced by crafters ejecting items, lightning on oxidized copper/lightning rods, floats to ender chests, emitted by end rods and eyeblossom (night/day), from jukeboxes & note blocks, during Soul Speed walking on soul sand/soil, when scraping or waxing copper, and above mycelium.",
+      "name": "nic:blocks",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pBreaking particles §8: Produced when blocks break, brushed, from long falls, sprinting, armor stand breaks, and when sheep eat grass.",
+      "name": "nic:breaking",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pBubbles §8: Produced by entities at bubble column tops, shown in upward & downward bubble columns, from underwater splashes and projectile trails, by floating entities, underwater Eyes of Ender trails, and fishing bobbers.",
+      "name": "nic:bubble",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pConduit particles §8: Appears and moves toward activated conduits, spawned by conduits attacking mobs, and travels toward hostile mobs targeted by conduits.",
+      "name": "nic:conduit",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pCreaking heart particles §8: Trace a trail between two points. Shown when the creaking is attacked, to link it to its heart.",
+      "name": "nic:creaking",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pCrit particles §8: Trails behind crossbow and fully charged bow shots, produced by evoker fangs, shown on critical hits, and when striking entities with Sharpness, Bane of Arthropods, Smite, or Impaling.",
+      "name": "nic:crit",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pCrop particles §8: Appears when using bone meal on grass, flowers, moss, crops, or plants; when adding items to composters, bees pollinate crops, and when placing turtle eggs on sand or sniffer eggs on moss.",
+      "name": "nic:crop",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pDeath particles §8: Left behind when a mob dies.",
+      "name": "nic:death",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pDrips §8: Seeps from honey-filled beehives/nests, lava or water above blocks, drips from pointed dripstone (lava or water, filling cauldrons), off crying obsidian and wet sponges.",
+      "name": "nic:drip",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pDust §8: Produced from water evaporating off wet sponges (Nether/dry biomes), and falls from floating concrete powder, dragon eggs, gravel, red sand, sand, unsupported scaffolding, and snow on leaves or floating.",
+      "name": "nic:dust",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pEating particles §8: Shown when eating food; produced by slime jumps, turtle egg hatching, ice bomb breaks, foxes eating, wither creation, fireball/egg/snowball breaks, XP bottle, lingering & splash potion breaks, feeding mobs, and pandas eating bamboo.",
+      "name": "nic:eating",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pEnchanting particles §8: Floats from bookshelves to an enchanting table.",
+      "name": "nic:enchanting",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pExplosion particles §8: Produced by explosions, blocks destroyed by the Ender Dragon, and emitted by the Ender Dragon on death.",
+      "name": "nic:explosion",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pFireflies §8: Spawns from firefly bushes when the internal light level is 13 or lower.",
+      "name": "nic:firefly",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pFishing particles §8: Represents the fish trail when fishing.",
+      "name": "nic:fish",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pFlame particles §8: Represents torch, soul torch, candle, and copper torch flames; shown in monster spawners, from lab table garbage, magma cube jumps, furnaces/blast furnaces/smokers while smelting, and floating around blazes during attacks.",
+      "name": "nic:flame",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pHeart particles §8: Produced during mob breeding, shown when feeding or taming animals, and when allays duplicate.",
+      "name": "nic:heart",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pLeaf particles (cherry) §8: Falls off cherry leaves.",
+      "name": "nic:leaves_cherry",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pLeaf particles (pale oak) §8: Falls off pale oak leaves.",
+      "name": "nic:leaves_oak",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pLeaf particles §8: Falls off the bottom of all leaf types except pale oak.",
+      "name": "nic:leaves_other",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pMace particles §8: Produced by mace smash attacks.",
+      "name": "nic:mace",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pMob particles §8: Shown when a creaking heart breaks, trails dolphins, phantoms, shulker bullets, guardians, emitted by ender dragon (breath/fireballs), glow squid, endermen/endermites, guardians' lasers, ravagers (stunned/roaring), llamas, pandas (sneeze), warden (sonic boom/emerge), left by silverfish, drips from pollinated bees, appears with villager hits, trades, breeding/job changes, feeding baby animals, and during the wither's birth/armor phase.",
+      "name": "nic:mobs",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pPortal §8: Trails behind Eyes of Ender, appears when an Eye breaks, floats to broken Ender Pearls and teleporting dragon eggs, moves toward Nether/End Gateway portals (X & Z axes), and floats above respawn anchors.",
+      "name": "nic:portal",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pRain splash §8: Appears when water drip particles or rain hit the ground, at bubble column splashes, shaken off by wolves, and from entities or fishing bobbers splashing in water.",
+      "name": "nic:rain",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pRedstone particles §8: Emitted by redstone ore, powered repeaters, torches, and dust, and activated sculk sensors.",
+      "name": "nic:redstone",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pSculk particles §8: Produced by traveling sculk charges, when a sculk charge pops, and appears over activated sculk catalysts.",
+      "name": "nic:sculk",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pSculk shriek §8: Produced by activated sculk shriekers.",
+      "name": "nic:shriek",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pSmoke particles §8: Displayed when failing to tame mobs; represents smoke from campfires (lit, extinguished, rain, on hay), candles, torches/soul torches, monster spawners, wither roses, end portals, brewing stands, and lava (incl. rain).",
+      "name": "nic:smoke",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pSnowflakes §8: Produced by entities in powder snow.",
+      "name": "nic:snowflake",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pSpawner particles §8: Appears when monster spawners spawn mobs, when ominous item spawners spawn items, when trial or ominous trial spawners activate, and when a player is near a vault.",
+      "name": "nic:spawner",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pSpore §8: Floats around spore blossoms and drips from them.",
+      "name": "nic:spore",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pVibration §8: Travels from a vibration source to a sculk sensor or warden, and from a note block to an allay.",
+      "name": "nic:vibration",
+      "default": true
+    },
+    {
+      "type": "toggle",
+      "text": "§pWind particles §8: Created when wind charges hit blocks, spawning gust particles, and produced/emitted by mobs with the Wind Charged effect.",
+      "name": "nic:wind",
+      "default": true
+    },
+    {
+      "type": "label",
+      "text": "• §7Thanks for downloading§r • \n\n"
+    }
+  ]
+}
